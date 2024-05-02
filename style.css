@@ -1,0 +1,63 @@
+
+/* CSS untuk navbar */
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f8f9fa; /* Warna latar belakang */
+  border-radius: 5px; /* Bulatan sudut */
+  border: 1px solid #ced4da; /* Warna border */
+}
+
+/* CSS untuk link pada navbar */
+.navbar-nav .nav-link {
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: #fff; /* Warna latar belakang link */
+  color: #333; /* Warna teks */
+  text-decoration: none; /* Hilangkan underline */
+  transition: background-color 0.3s ease; /* Transisi hover */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #e9ecef; /* Warna latar belakang saat hover */
+}
+
+.container {
+  width: 100%; /* Ubah lebar kontainer menjadi 100% */
+  max-width: 650px; /* Maksimum lebar kontainer */
+  margin: auto;
+  padding: 0 10px; /* Tambahkan padding agar konten tidak terlalu dekat dengan tepi */
+  box-sizing: border-box; /* Memastikan padding tidak menambah lebar kontainer */
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  margin: 0 auto;
+}
+
+/* Media queries untuk perangkat seluler */
+@media (max-width: 768px) {
+  .navbar-nav {
+      justify-content: center; /* Pusatkan link navbar */
+  }
+
+  .navbar-nav .nav-link {
+      flex: 0 0 auto; /* Atur lebar link sesuai konten */
+  }
+}
+
+
+  #copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
